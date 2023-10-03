@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programación - Cambiando el Mundo | Tecnología</title>
+    <!-- Incluye el CSS de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            background-image: url('fondo.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        header {
+            background-color: #007BFF;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin: 10px;
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .profile-image {
+            max-width: 100%;
+            height: auto;
+        }
+
+        #main-heading {
+            font-size: 2.5rem;
+            color: #333;
+        }
+
+        #personal-info {
+            font-size: 1.1rem;
+            font-style: italic;
+            color: #777;
+        }
+
+        #info-table {
+            margin-top: 1rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="main-heading">Programación - Cambiando el Mundo</h1>
+    </header>
+
+    <nav>
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a class="nav-link active" href="#">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Acerca de</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Descripción</h2>
+                <p>La programación es una fuerza impulsora detrás de la transformación tecnológica en todo el mundo. Desde la creación de aplicaciones y sitios web hasta el desarrollo de soluciones avanzadas en inteligencia artificial y robótica, la programación está dando forma al futuro.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Información Personal</h2>
+                <p>Nombre: Luis<br>
+                Correo: luisangelnunezpinzonskolmi@gmail.com<br>
+                Institución: Skolmi</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Subtema: Cómo la Programación está Cambiando el Mundo</h2>
+                <p>La programación está impulsando avances en áreas como la medicina, la comunicación, la energía renovable y más. La automatización y la conectividad que la programación proporciona están permitiendo soluciones innovadoras a desafíos globales.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Tabla de Ejemplo</h2>
+                <table class="table">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>Tecnología</th>
+                            <th>Impacto</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Inteligencia Artificial</td>
+                            <td>Mejora la toma de decisiones y automatiza tareas.</td>
+                        </tr>
+                        <tr>
+                            <td>Internet de las Cosas (IoT)</td>
+                            <td>Conecta dispositivos para una mayor eficiencia.</td>
+                        </tr>
+                        <tr>
+                            <td>Realidad Virtual</td>
+                            <td>Transforma la educación y el entretenimiento.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>¡Hola, soy Luis! 👋</h2>
+                <p>¡Bienvenidos a mi página sobre tecnología y programación! Aquí exploraremos cómo la programación está moldeando nuestro mundo y creando un futuro emocionante y lleno de posibilidades.</p>
+                <img class="profile-image" src="ruta/a/tu/imagen.jpg" alt="Imagen de Luis">
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Luis | Tecnología y Programación</p>
+    </footer>
+
+    <!-- Incluye los scripts de Bootstrap al final del documento -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
